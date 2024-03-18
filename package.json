@@ -1,6 +1,6 @@
 {
   "name": "@fp-tx/documenter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Custom markdown generation using api-extractor",
   "sideEffects": false,
   "exports": {
