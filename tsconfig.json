@@ -11,7 +11,9 @@
     "noFallthroughCasesInSwitch": true,
     "forceConsistentCasingInFileNames": true,
     "stripInternal": true,
+    "allowImportingTsExtensions": false,
+    "skipLibCheck": false,
     "types": ["node", "jest"]
   },
-  "include": ["./src/**/*.ts", "./test/**/*.ts"]
+  "include": ["./src/**/*.ts", "./test/**/*.ts", "./docusaurus.config.ts"]
 }

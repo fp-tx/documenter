@@ -7,6 +7,8 @@ coverage
 docs/examples
 */**/.DS_Store
 .eslintcache
-docs/**/*
 lib/**/*
 temp/**/*
+.DS_Store
+.docusaurus
+build
