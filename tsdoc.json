@@ -1,0 +1,41 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/tsdoc/v0/tsdoc.schema.json",
+
+  // Include the definitions that are required for API Extractor
+  "extends": ["@microsoft/api-extractor/extends/tsdoc-base.json"],
+
+  // noStandardTags: false,
+
+  "tagDefinitions": [
+    // Define a custom tag and specify how it should be parsed
+    {
+      "tagName": "@since",
+      "syntaxKind": "inline",
+      "allowMultiple": false
+    },
+    {
+      "tagName": "@meta",
+      "syntaxKind": "block",
+      "allowMultiple": false
+    },
+    {
+      "tagName": "@category",
+      "syntaxKind": "inline",
+      "allowMultiple": false
+    },
+    {
+      "tagName": "@license",
+      "syntaxKind": "inline",
+      "allowMultiple": true
+    }
+  ],
+
+  "supportForTags": {
+    // Indicate that the custom tag is supported by your tooling.  (Without this, warnings may
+    // be reported saying that the tag is unsupported.)
+    "@since": true,
+    "@meta": true,
+    "@category": true,
+    "@license": true
+  }
+}
