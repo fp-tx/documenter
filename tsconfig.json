@@ -15,5 +15,5 @@
     "skipLibCheck": false,
     "types": ["node", "jest"]
   },
-  "include": ["./src/**/*.ts", "./test/**/*.ts", "./docusaurus.config.ts"]
+  "include": ["./src/**/*.ts", "./test/**/*.ts"]
 }

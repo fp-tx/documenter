@@ -9,8 +9,8 @@ import * as RNEA from '@fp-tx/core/ReadonlyNonEmptyArray'
 import * as Sg from '@fp-tx/core/Semigroup'
 import path from 'path'
 
-import * as FileService from './FileService.js'
-import type * as Md from './Markdown.js'
+import * as FileService from './FileService'
+import type * as Md from './Markdown'
 
 // -------------------------------------------------------------------------------------
 // models and constructors

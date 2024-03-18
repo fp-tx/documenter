@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/prefer-readonly */
 // ------------------------------------------------------------------
 // An integration / regression snapshot test for markdown output
 // ------------------------------------------------------------------
@@ -122,6 +123,7 @@ export class SampleClass extends SubClass implements SampleInterface {
    * @meta
    * {@since 1.0.0}
    */
+  // @ts-expect-error - unused
   private static privateStaticField: number = 42
 
   constructor(
@@ -173,6 +175,7 @@ export class SampleClass extends SubClass implements SampleInterface {
    * @meta
    * {@since 1.0.0}
    */
+  // @ts-expect-error - unused
   private privateFn(): number {
     return this.value
   }
@@ -202,6 +205,7 @@ export class SampleClass extends SubClass implements SampleInterface {
    * @meta
    * {@since 1.0.0}
    */
+  // @ts-expect-error - unused
   private readonly privateField: number = 42
 
   /**

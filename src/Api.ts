@@ -9,8 +9,8 @@ import * as RNEA from '@fp-tx/core/ReadonlyNonEmptyArray'
 import * as Sg from '@fp-tx/core/Semigroup'
 import * as Str from '@fp-tx/core/string'
 
-import * as Md from './Markdown.js'
-import * as Prettier from './Prettier.js'
+import * as Md from './Markdown'
+import * as Prettier from './Prettier'
 
 // -------------------------------------------------------------------------------------
 // models
