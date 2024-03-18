@@ -1,0 +1,832 @@
+{
+  "metadata": {
+    "toolPackage": "@microsoft/api-extractor",
+    "toolVersion": "7.39.1",
+    "schemaVersion": 1011,
+    "oldestForwardsCompatibleVersion": 1001,
+    "tsdocConfig": {
+      "$schema": "https://developer.microsoft.com/json-schemas/tsdoc/v0/tsdoc.schema.json",
+      "noStandardTags": true,
+      "tagDefinitions": [
+        {
+          "tagName": "@alpha",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@beta",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@defaultValue",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@decorator",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@deprecated",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@eventProperty",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@example",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@experimental",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@inheritDoc",
+          "syntaxKind": "inline"
+        },
+        {
+          "tagName": "@internal",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@label",
+          "syntaxKind": "inline"
+        },
+        {
+          "tagName": "@link",
+          "syntaxKind": "inline",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@override",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@packageDocumentation",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@param",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@privateRemarks",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@public",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@readonly",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@remarks",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@returns",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@sealed",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@see",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@throws",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@typeParam",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@virtual",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@betaDocumentation",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@internalRemarks",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@preapproved",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@since",
+          "syntaxKind": "inline"
+        },
+        {
+          "tagName": "@meta",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@category",
+          "syntaxKind": "inline"
+        },
+        {
+          "tagName": "@license",
+          "syntaxKind": "inline",
+          "allowMultiple": true
+        }
+      ],
+      "supportForTags": {
+        "@alpha": true,
+        "@beta": true,
+        "@defaultValue": true,
+        "@decorator": true,
+        "@deprecated": true,
+        "@eventProperty": true,
+        "@example": true,
+        "@experimental": true,
+        "@inheritDoc": true,
+        "@internal": true,
+        "@label": true,
+        "@link": true,
+        "@override": true,
+        "@packageDocumentation": true,
+        "@param": true,
+        "@privateRemarks": true,
+        "@public": true,
+        "@readonly": true,
+        "@remarks": true,
+        "@returns": true,
+        "@sealed": true,
+        "@see": true,
+        "@throws": true,
+        "@typeParam": true,
+        "@virtual": true,
+        "@betaDocumentation": true,
+        "@internalRemarks": true,
+        "@preapproved": true,
+        "@since": true,
+        "@meta": true,
+        "@category": true,
+        "@license": true
+      },
+      "reportUnsupportedHtmlElements": false
+    }
+  },
+  "projectFolderUrl": "https://github.com/fp-tx/documenter",
+  "kind": "Package",
+  "canonicalReference": "@fp-tx/documenter!",
+  "docComment": "",
+  "name": "@fp-tx/documenter",
+  "preserveMemberOrder": false,
+  "members": [
+    {
+      "kind": "EntryPoint",
+      "canonicalReference": "@fp-tx/documenter!",
+      "name": "",
+      "preserveMemberOrder": false,
+      "members": [
+        {
+          "kind": "Namespace",
+          "canonicalReference": "@fp-tx/documenter!Sample:namespace",
+          "docComment": "",
+          "excerptTokens": [],
+          "fileUrlPath": "dist/src/sample-index.ts",
+          "releaseTag": "None",
+          "name": "Sample",
+          "preserveMemberOrder": false,
+          "members": [
+            {
+              "kind": "Function",
+              "canonicalReference": "@fp-tx/documenter!Sample.functionExport:function(1)",
+              "docComment": "/**\n * A sample function export\n *\n * @meta\n *\n * {@since 1.0.0} {@category Functions}\n *\n * @public\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "export declare function functionExport(a: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", b: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": "): "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileUrlPath": "dist/src/sample-module.ts",
+              "returnTypeTokenRange": {
+                "startIndex": 5,
+                "endIndex": 6
+              },
+              "releaseTag": "Public",
+              "overloadIndex": 1,
+              "parameters": [
+                {
+                  "parameterName": "a",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isOptional": false
+                },
+                {
+                  "parameterName": "b",
+                  "parameterTypeTokenRange": {
+                    "startIndex": 3,
+                    "endIndex": 4
+                  },
+                  "isOptional": false
+                }
+              ],
+              "name": "functionExport"
+            },
+            {
+              "kind": "TypeAlias",
+              "canonicalReference": "@fp-tx/documenter!Sample.Option:type",
+              "docComment": "/**\n * A tagged union type\n * ```typescript\n * type Tagged = { _tag: 'foo' } | { _tag: 'bar' }\n * ```\n *\n * @remarks\n *\n * Tagged unions are a powerful way to represent a finite set of possible values. They are often used to represent the state of a system or a set of actions that can be performed.\n *\n * Here's an example of the Option tagged union\n * ```typescript\n * type Option<A> = { _tag: 'None' } | { _tag: 'Some'; value: A }\n *\n * const none: Option<number> = { _tag: 'none' }\n * const some: Option<number> = { _tag: 'some', value: 42 }\n * ```\n *\n * @example\n * ```typescript\n * const foo: Tagged = { _tag: 'foo' }\n * const bar: Tagged = { _tag: 'bar' }\n * ```\n *\n * @meta\n *\n * {@since 1.0.0} {@category Types}\n *\n * @public\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "export type Option<A> = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "{\n    readonly _tag: 'Some';\n    some: A;\n} | {\n    readonly _tag: 'None';\n}"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileUrlPath": "dist/src/sample-module.ts",
+              "releaseTag": "Public",
+              "name": "Option",
+              "typeParameters": [
+                {
+                  "typeParameterName": "A",
+                  "constraintTokenRange": {
+                    "startIndex": 0,
+                    "endIndex": 0
+                  },
+                  "defaultTypeTokenRange": {
+                    "startIndex": 0,
+                    "endIndex": 0
+                  }
+                }
+              ],
+              "typeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "Class",
+              "canonicalReference": "@fp-tx/documenter!Sample.SampleClass:class",
+              "docComment": "/**\n * A sample class export\n *\n * @meta\n *\n * {@since 1.0.0} {@category Classes}\n *\n * @public\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "export declare class SampleClass extends "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "SubClass",
+                  "canonicalReference": "@fp-tx/documenter!Sample.SubClass:class"
+                },
+                {
+                  "kind": "Content",
+                  "text": " implements "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "SampleInterface",
+                  "canonicalReference": "@fp-tx/documenter!Sample.SampleInterface:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": " "
+                }
+              ],
+              "fileUrlPath": "dist/src/sample-module.ts",
+              "releaseTag": "Public",
+              "isAbstract": false,
+              "name": "SampleClass",
+              "preserveMemberOrder": false,
+              "members": [
+                {
+                  "kind": "Constructor",
+                  "canonicalReference": "@fp-tx/documenter!Sample.SampleClass:constructor(1)",
+                  "docComment": "/**\n * Constructs a new instance of the `SampleClass` class\n */\n",
+                  "excerptTokens": [
+                    {
+                      "kind": "Content",
+                      "text": "constructor(\n    value: "
+                    },
+                    {
+                      "kind": "Content",
+                      "text": "number"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ", \n    mutableField: "
+                    },
+                    {
+                      "kind": "Content",
+                      "text": "number"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ");"
+                    }
+                  ],
+                  "releaseTag": "Public",
+                  "isProtected": false,
+                  "overloadIndex": 1,
+                  "parameters": [
+                    {
+                      "parameterName": "value",
+                      "parameterTypeTokenRange": {
+                        "startIndex": 1,
+                        "endIndex": 2
+                      },
+                      "isOptional": false
+                    },
+                    {
+                      "parameterName": "mutableField",
+                      "parameterTypeTokenRange": {
+                        "startIndex": 3,
+                        "endIndex": 4
+                      },
+                      "isOptional": false
+                    }
+                  ]
+                },
+                {
+                  "kind": "Property",
+                  "canonicalReference": "@fp-tx/documenter!Sample.SampleClass#mutableField:member",
+                  "docComment": "/**\n * A protected mutable field\n *\n * @meta\n *\n * {@since 1.0.0}\n */\n",
+                  "excerptTokens": [
+                    {
+                      "kind": "Content",
+                      "text": "protected mutableField: "
+                    },
+                    {
+                      "kind": "Content",
+                      "text": "number"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ";"
+                    }
+                  ],
+                  "isReadonly": false,
+                  "isOptional": false,
+                  "releaseTag": "Public",
+                  "name": "mutableField",
+                  "propertyTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isStatic": false,
+                  "isProtected": true,
+                  "isAbstract": false
+                },
+                {
+                  "kind": "Property",
+                  "canonicalReference": "@fp-tx/documenter!Sample.SampleClass#protectedField:member",
+                  "docComment": "/**\n * A protected field\n *\n * @meta\n *\n * {@since 1.0.0}\n */\n",
+                  "excerptTokens": [
+                    {
+                      "kind": "Content",
+                      "text": "protected protectedField: "
+                    },
+                    {
+                      "kind": "Content",
+                      "text": "number"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ";"
+                    }
+                  ],
+                  "isReadonly": false,
+                  "isOptional": false,
+                  "releaseTag": "Public",
+                  "name": "protectedField",
+                  "propertyTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isStatic": false,
+                  "isProtected": true,
+                  "isAbstract": false
+                },
+                {
+                  "kind": "Method",
+                  "canonicalReference": "@fp-tx/documenter!Sample.SampleClass#protectedFn:member(1)",
+                  "docComment": "/**\n * A protected method\n *\n * @meta\n *\n * {@since 1.0.0}\n */\n",
+                  "excerptTokens": [
+                    {
+                      "kind": "Content",
+                      "text": "protected protectedFn(): "
+                    },
+                    {
+                      "kind": "Content",
+                      "text": "number"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ";"
+                    }
+                  ],
+                  "isStatic": false,
+                  "returnTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "releaseTag": "Public",
+                  "isProtected": true,
+                  "overloadIndex": 1,
+                  "parameters": [],
+                  "isOptional": false,
+                  "isAbstract": false,
+                  "name": "protectedFn"
+                },
+                {
+                  "kind": "Property",
+                  "canonicalReference": "@fp-tx/documenter!Sample.SampleClass.protectedStaticField:member",
+                  "docComment": "/**\n * A protected static field\n *\n * @meta\n *\n * {@since 1.0.0}\n */\n",
+                  "excerptTokens": [
+                    {
+                      "kind": "Content",
+                      "text": "protected static protectedStaticField: "
+                    },
+                    {
+                      "kind": "Content",
+                      "text": "number"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ";"
+                    }
+                  ],
+                  "isReadonly": false,
+                  "isOptional": false,
+                  "releaseTag": "Public",
+                  "name": "protectedStaticField",
+                  "propertyTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isStatic": true,
+                  "isProtected": true,
+                  "isAbstract": false
+                },
+                {
+                  "kind": "Property",
+                  "canonicalReference": "@fp-tx/documenter!Sample.SampleClass#publicField:member",
+                  "docComment": "/**\n * A public field\n *\n * @meta\n *\n * {@since 1.0.0}\n *\n * @public\n */\n",
+                  "excerptTokens": [
+                    {
+                      "kind": "Content",
+                      "text": "publicField: "
+                    },
+                    {
+                      "kind": "Content",
+                      "text": "number"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ";"
+                    }
+                  ],
+                  "isReadonly": false,
+                  "isOptional": false,
+                  "releaseTag": "Public",
+                  "name": "publicField",
+                  "propertyTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isStatic": false,
+                  "isProtected": false,
+                  "isAbstract": false
+                },
+                {
+                  "kind": "Method",
+                  "canonicalReference": "@fp-tx/documenter!Sample.SampleClass#publicFn:member(1)",
+                  "docComment": "/**\n * A public method\n *\n * @meta\n *\n * {@since 1.0.0}\n *\n * @public\n */\n",
+                  "excerptTokens": [
+                    {
+                      "kind": "Content",
+                      "text": "publicFn(): "
+                    },
+                    {
+                      "kind": "Content",
+                      "text": "number"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ";"
+                    }
+                  ],
+                  "isStatic": false,
+                  "returnTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "releaseTag": "Public",
+                  "isProtected": false,
+                  "overloadIndex": 1,
+                  "parameters": [],
+                  "isOptional": false,
+                  "isAbstract": false,
+                  "name": "publicFn"
+                },
+                {
+                  "kind": "Property",
+                  "canonicalReference": "@fp-tx/documenter!Sample.SampleClass.staticField:member",
+                  "docComment": "/**\n * A static field\n *\n * @meta\n *\n * {@since 1.0.0}\n *\n * @public\n */\n",
+                  "excerptTokens": [
+                    {
+                      "kind": "Content",
+                      "text": "static staticField: "
+                    },
+                    {
+                      "kind": "Content",
+                      "text": "number"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ";"
+                    }
+                  ],
+                  "isReadonly": false,
+                  "isOptional": false,
+                  "releaseTag": "Public",
+                  "name": "staticField",
+                  "propertyTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isStatic": true,
+                  "isProtected": false,
+                  "isAbstract": false
+                },
+                {
+                  "kind": "Property",
+                  "canonicalReference": "@fp-tx/documenter!Sample.SampleClass#superPrivate:member",
+                  "docComment": "/**\n * A public getter\n *\n * @meta\n *\n * {@since 1.0.0}\n *\n * @public\n */\n",
+                  "excerptTokens": [
+                    {
+                      "kind": "Content",
+                      "text": "get superPrivate(): "
+                    },
+                    {
+                      "kind": "Content",
+                      "text": "number"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ";\n\nset superPrivate(value: number);"
+                    }
+                  ],
+                  "isReadonly": false,
+                  "isOptional": false,
+                  "releaseTag": "Public",
+                  "name": "superPrivate",
+                  "propertyTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isStatic": false,
+                  "isProtected": false,
+                  "isAbstract": false
+                },
+                {
+                  "kind": "Property",
+                  "canonicalReference": "@fp-tx/documenter!Sample.SampleClass#value:member",
+                  "docComment": "/**\n * A public readonly field\n *\n * @meta\n *\n * {@since 1.0.0}\n *\n * @public\n */\n",
+                  "excerptTokens": [
+                    {
+                      "kind": "Content",
+                      "text": "readonly value: "
+                    },
+                    {
+                      "kind": "Content",
+                      "text": "number"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ";"
+                    }
+                  ],
+                  "isReadonly": true,
+                  "isOptional": false,
+                  "releaseTag": "Public",
+                  "name": "value",
+                  "propertyTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isStatic": false,
+                  "isProtected": false,
+                  "isAbstract": false
+                }
+              ],
+              "extendsTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "implementsTokenRanges": [
+                {
+                  "startIndex": 3,
+                  "endIndex": 4
+                }
+              ]
+            },
+            {
+              "kind": "Interface",
+              "canonicalReference": "@fp-tx/documenter!Sample.SampleInterface:interface",
+              "docComment": "/**\n * A sample interface\n *\n * @meta\n *\n * {@since 1.0.0}\n *\n * @public\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "export interface SampleInterface "
+                }
+              ],
+              "fileUrlPath": "dist/src/sample-module.ts",
+              "releaseTag": "Public",
+              "name": "SampleInterface",
+              "preserveMemberOrder": false,
+              "members": [
+                {
+                  "kind": "PropertySignature",
+                  "canonicalReference": "@fp-tx/documenter!Sample.SampleInterface#value:member",
+                  "docComment": "/**\n * Note: documentation for interface properties is not currently supported\n *\n * @meta\n *\n * {@since 1.0.0}\n *\n * @public\n */\n",
+                  "excerptTokens": [
+                    {
+                      "kind": "Content",
+                      "text": "readonly value: "
+                    },
+                    {
+                      "kind": "Content",
+                      "text": "number"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ";"
+                    }
+                  ],
+                  "isReadonly": true,
+                  "isOptional": false,
+                  "releaseTag": "Public",
+                  "name": "value",
+                  "propertyTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  }
+                }
+              ],
+              "extendsTokenRanges": []
+            },
+            {
+              "kind": "Class",
+              "canonicalReference": "@fp-tx/documenter!Sample.SubClass:class",
+              "docComment": "/**\n * A sample sub-class\n *\n * @meta\n *\n * {@since 1.0.0}\n *\n * @public\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "export declare class SubClass "
+                }
+              ],
+              "fileUrlPath": "dist/src/sample-module.ts",
+              "releaseTag": "Public",
+              "isAbstract": false,
+              "name": "SubClass",
+              "preserveMemberOrder": false,
+              "members": [
+                {
+                  "kind": "Constructor",
+                  "canonicalReference": "@fp-tx/documenter!Sample.SubClass:constructor(1)",
+                  "docComment": "/**\n * Constructs a new instance of the `SubClass` class\n */\n",
+                  "excerptTokens": [
+                    {
+                      "kind": "Content",
+                      "text": "constructor(who: "
+                    },
+                    {
+                      "kind": "Content",
+                      "text": "string"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ");"
+                    }
+                  ],
+                  "releaseTag": "Public",
+                  "isProtected": false,
+                  "overloadIndex": 1,
+                  "parameters": [
+                    {
+                      "parameterName": "who",
+                      "parameterTypeTokenRange": {
+                        "startIndex": 1,
+                        "endIndex": 2
+                      },
+                      "isOptional": false
+                    }
+                  ]
+                },
+                {
+                  "kind": "Property",
+                  "canonicalReference": "@fp-tx/documenter!Sample.SubClass#who:member",
+                  "docComment": "",
+                  "excerptTokens": [
+                    {
+                      "kind": "Content",
+                      "text": "readonly who: "
+                    },
+                    {
+                      "kind": "Content",
+                      "text": "string"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ";"
+                    }
+                  ],
+                  "isReadonly": true,
+                  "isOptional": false,
+                  "releaseTag": "Public",
+                  "name": "who",
+                  "propertyTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  },
+                  "isStatic": false,
+                  "isProtected": false,
+                  "isAbstract": false
+                }
+              ],
+              "implementsTokenRanges": []
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@fp-tx/documenter!Sample.variableExport:var",
+              "docComment": "/**\n * A sample variable export\n *\n * @meta\n *\n * {@since 1.0.0} {@category Variables}\n *\n * @public\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "variableExport: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Option",
+                  "canonicalReference": "@fp-tx/documenter!Sample.Option_2:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<number>"
+                }
+              ],
+              "fileUrlPath": "dist/src/sample-module.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "variableExport",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
