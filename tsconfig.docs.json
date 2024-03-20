@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "composite": true,
+    "resolveJsonModule": true
+  },
+  "include": ["./docusaurus.config.ts"],
+  "exclude": ["./src/**/*.ts", "./test/**/*.ts"]
+}

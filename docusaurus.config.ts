@@ -2,8 +2,10 @@ import type * as Preset from '@docusaurus/preset-classic'
 import type { Config } from '@docusaurus/types'
 import { themes as prismThemes } from 'prism-react-renderer'
 
+import pkg from './package.json'
+
 const config: Config = {
-  title: 'fp-tx/documenter',
+  title: `@fp-tx/documenter`,
   tagline: 'Documentation generator for fp-tx libraries',
   url: 'https://documenter.fp-tx.org',
   baseUrl: '/',
@@ -30,7 +32,7 @@ const config: Config = {
   themeConfig: {
     image: 'https://avatars.githubusercontent.com/u/151417963?s=200&v=4',
     navbar: {
-      title: 'fp-tx/documenter',
+      title: `documenter v${pkg.version}`,
       logo: {
         alt: 'fp-tx/documenter Logo',
         src: 'https://avatars.githubusercontent.com/u/151417963?s=200&v=4',

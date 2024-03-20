@@ -40,8 +40,8 @@
     "docs": "pnpm run build && pnpm run docs:extract && pnpm run docs:pack",
     "docs:ls": "pnpm run docs && :",
     "docs:start": "docusaurus start",
-    "docs:build": "pnpm run build && docusaurus build",
-    "docs:serve": "pnpm run docs:build && docusaurus serve"
+    "docs:build": "pnpm run docs && docusaurus build",
+    "docs:serve": "docusaurus serve"
   },
   "lint-staged": {
     "src/**/*.ts": [

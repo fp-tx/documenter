@@ -1,13 +1,19 @@
 {
   "parserOptions": {
-    "project": "./tsconfig.json"
+    "project": ["./tsconfig.json", "./tsconfig.docs.json"]
   },
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended"
   ],
-  "plugins": ["@typescript-eslint", "unused-imports", "simple-import-sort", "import", "eslint-plugin-tsdoc"],
+  "plugins": [
+    "@typescript-eslint",
+    "unused-imports",
+    "simple-import-sort",
+    "import",
+    "eslint-plugin-tsdoc"
+  ],
   "rules": {
     "tsdoc/syntax": "warn",
     "import/first": "error",
