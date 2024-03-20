@@ -54,3 +54,6 @@ jobs:
 
       - name: Run Build
         run: pnpm run prerelease
+
+      - name: Generate Docs
+        run: pnpm run docs:ci
