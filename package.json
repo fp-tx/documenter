@@ -37,11 +37,12 @@
     "test:e2e:ls": "pnpm run test:e2e && :",
     "docs:extract": "api-extractor run --local --verbose",
     "docs:pack": "tsx ./src/bin -i ./temp/documenter.api.json -o ./docs",
-    "docs": "pnpm run build && pnpm run docs:extract && pnpm run docs:pack",
+    "docs:ci": "pnpm run docs:extract && pnpm run docs:pack",
+    "docs": "pnpm run build && pnpm run docs:ci",
     "docs:ls": "pnpm run docs && :",
     "docs:start": "docusaurus start",
-    "docs:build": "pnpm run build && docusaurus build",
-    "docs:serve": "pnpm run docs:build && docusaurus serve"
+    "docs:build": "pnpm run docs && docusaurus build",
+    "docs:serve": "docusaurus serve"
   },
   "lint-staged": {
     "src/**/*.ts": [
