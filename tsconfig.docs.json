@@ -3,6 +3,7 @@
   "compilerOptions": {
     "skipLibCheck": true,
     "composite": true,
+    "noEmit": false,
     "resolveJsonModule": true
   },
   "include": ["./docusaurus.config.ts"],
